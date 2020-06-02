@@ -1,0 +1,26 @@
+{
+  "name": "hypercore-pipe",
+  "version": "0.0.6",
+  "description": "use hypercores from the command line, peer discovery via hyperdiscovery.",
+  "main": "index.js",
+  "bin": {
+    "hypercore-pipe": "bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rhodey/hypercore-pipe.git"
+  },
+  "homepage": "https://github.com/rhodey/hypercore-pipe",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "random-access-memory": "^3.0.0",
+    "hypercore": "^6.20.2",
+    "hyperdiscovery": "^8.0.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "hypercore",
+    "pipe",
+    "dat"
+  ]
+}
